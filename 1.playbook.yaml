@@ -1,0 +1,7 @@
+- name: ping
+  hosts: web
+  tasks: # task eaqul to module in ansible or collectiob
+  - name: ping the server
+    ansible.builtin.ping:
+    
+
